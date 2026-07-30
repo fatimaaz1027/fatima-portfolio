@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatima Tu Zohra | Creative Portfolio</title>
+  <meta name="description"
+    content="Fatima Tu Zohra - Creative Portfolio featuring AI Content Creation, Social Media Posts, Cover Designs, and Video Reels." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" />
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app-shell">
+    <header class="navbar">
+      <nav class="nav-container" aria-label="Primary navigation">
+        <a href="#home" class="nav-brand">Fatima Tu Zohra</a>
+        <button id="menu-toggle" type="button" class="menu-toggle" aria-label="Open navigation menu"
+          aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+        <div id="nav-links" class="nav-links hidden">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#resume">Resume</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <!-- Hero Background Video Disabled -->
+        <!--
+        <video
+          class="hero-bg-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+        >
+          <source src="videos/university-life.mp4" type="video/mp4" />
+          <source src="videos/social-media.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+        -->
+        <div class="hero-orb hero-orb-left"></div>
+        <div class="hero-orb hero-orb-right"></div>
+        <div class="hero-container">
+          <div class="hero-content">
+            <p class="hero-eyebrow fade-up">Creative Portfolio</p>
+            <h1 class="hero-name fade-up d1">Fatima Tu Zohra</h1>
+            <h2 class="hero-title fade-up d1">AI Content Creator &amp; Graphic Designer</h2>
+            <p class="hero-copy fade-up d2">Crafting visually striking social media content, cover designs, and engaging
+              short-form videos with AI-powered creativity and precision.</p>
+            <div class="hero-buttons fade-up d3">
+              <a href="#portfolio" class="btn btn-primary">
+                <span>Explore Work</span>
+                <i data-lucide="arrow-down-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <span>Get in Touch</span>
+                <i data-lucide="mail"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-space">
+        <div class="about-card glass-card">
+          <p class="section-eyebrow">About Me</p>
+          <div class="about-grid">
+            <div class="about-text">
+              <h2 class="about-title">Bringing Vision to Life Through AI &amp; Design</h2>
+              <p class="about-copy">Passionate about visual storytelling and modern aesthetic design. Specializing in
+                social media posts, cover art, and short-form video creation using Canva and AI tools to
+                deliver compelling brand graphics.</p>
+            </div>
+            <div class="about-right">
+              <img src="images/about-work.jpg" alt="Creative AI &amp; Graphic Design Workspace" loading="lazy"
+                class="about-work-img" />
+              <div class="about-tags">
+                <span class="tag">Canva Expert</span>
+                <span class="tag">AI Content</span>
+                <span class="tag">Social Media Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-space section-bg">
+        <div class="container">
+          <div class="portfolio-header">
+            <div class="portfolio-intro">
+              <p class="section-eyebrow">Portfolio</p>
+              <h2 class="section-title">Featured Creative Projects</h2>
+              <p class="section-copy">Explore a selection of recent designs across social media posts, book &amp; album
+                covers, and engaging video reels.</p>
+            </div>
+            <p class="portfolio-count">14 Projects</p>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Portfolio filters">
+            <button class="filter-tab active" type="button" data-filter="all">All</button>
+            <button class="filter-tab" type="button" data-filter="social">Social Media Posts</button>
+            <button class="filter-tab" type="button" data-filter="cover">Cover Designs</button>
+            <button class="filter-tab" type="button" data-filter="reel">Reels</button>
+          </div>
+
+          <div id="portfolio-grid" class="portfolio-grid">
+            <button class="project-card glass-card" data-category="social" data-modal="1" type="button">
+              <img src="images/mental-health.jpg"
+                alt="Mental health awareness social media post promoting emotional wellbeing, self-care, and support."
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Mental Health Awareness</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Raising awareness about mental well being through clear and engaging
+                  visual communication. </p>
+                <p class="project-tools">• AI Design • Social Media</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="2" type="button">
+              <img src="images/prompt-engineering.jpg"
+                alt="Promotional post for an AI Prompt Engineering Workshop featuring event details and registration information."
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">AI Prompt Engineering Workshop</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Promotional post designed to highlight an AI workshop and encourage
+                  audience participation. </p>
+                <p class="project-tools">• AI Workshop • Event Promotion</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="3" type="button">
+              <img src="images/social-media.jpg"
+                alt="Social media growth tips post highlighting audience engagement, content strategy, and online growth techniques."
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Social Media Growth Tips</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Informative carousel sharing practical strategies to improve social media
+                  growth and engagement. </p>
+                <p class="project-tools">• Social Media • Content Strategy</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="4" type="button">
+              <img src="images/al-noor-clothing.jpg"
+                alt="Eid ul Adha fashion sale banner featuring a flat 40% discount on clothing." loading="lazy"
+                class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Fashion Sale Compaign</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description"> Promotional social media campaign designed to boost festive sales with a
+                  limited-time 30% discount offer. </p>
+                <p class="project-tools"> • Marketing Design • Visual Branding</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="5" type="button">
+              <img src="images/bee-app1.jpg" alt="Zero investment online business promotion with BeeApp mobile app"
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Zero Investment Business</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Promotional post highlighting BeeApp's zero investment reselling
+                  opportunity for aspiring online entrepreneurs</p>
+                <p class="project-tools">• Marketing • Promotional Design</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="6" type="button">
+              <img src="images/bee-app2.jpg" alt="BeeApp features and reseller benefits promotional graphic"
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Why Choose BeeApp?</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Informative promotional post showcasing BeeApp's key features and
+                  benefits for resellers.</p>
+                <p class="project-tools">• Marketing • Brand Promotion</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="7" type="button">
+              <img src="images/ai-tools.jpg" alt="AI tools recommendation post featuring popular productivity tools"
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Essential AI Tools</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Educational post featuring useful AI tools to improve productivity and
+                  everyday workflows.</p>
+                <p class="project-tools">• AI • Educational Content</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="8" type="button">
+              <img src="images/mistakes.jpg" alt="Educational graphic about five common AI mistakes to avoid"
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">5 AI Mistakes to Avoid</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Educational post explaining common AI mistakes and practical tips to
+                  achieve better results.</p>
+                <p class="project-tools">• AI • Educational Content</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="9" type="button">
+              <img src="images/mega-fashion.jpg" alt="Mega Fashion Sale promotional post with 50% discount offer"
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Mega Fashion Sale</h3>
+                <p class="project-description">Bold promotional post designed to highlight seasonal discounts with
+                  eye-catching typography and a modern retail layout.</p>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-tools">• Promotional Design • Fashion Marketing</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="social" data-modal="10" type="button">
+              <img src="images/summer-fashion.jpg" alt="Summer Fashion Sale promotional post with seasonal offers"
+                loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Summer Fashion Sale</h3>
+                <p class="project-category">Social Media Post</p>
+                <p class="project-description">Bright summer-themed promotional design created to showcase seasonal
+                  fashion offers with a vibrant and engaging visual style.</p>
+                <p class="project-tools">• Fashion Promotion • Social Media Marketing</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="cover" data-modal="11" type="button">
+              <img src="images/outfits-studies-cover.jpg"
+                alt="2026 fashion collection cover with modern outfit showcase" loading="lazy" class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">2026 Fashion Collection</h3>
+                <p class="project-category">Cover Design</p>
+                <p class="project-description">Modern fashion cover featuring a clean editorial layout with a premium
+                  aesthetic to highlight the latest clothing collection.</p>
+                <p class="project-tools">• Fashion Branding • Cover Design</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card" data-category="cover" data-modal="12" type="button">
+              <img src="images/beeapp-cover.jpg"
+                alt="BeeApp promotional cover highlighting online earning opportunities" loading="lazy"
+                class="project-image" />
+              <div class="project-info">
+                <h3 class="project-title">Earn Online with BeeApp</h3>
+                <p class="project-category">Cover Design</p>
+                <p class="project-description">Promotional cover designed to showcase BeeApp's earning opportunities
+                  with a clean layout and strong call-to-action.</p>
+                <p class="project-tools">• Promotional Design • App Marketing</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card reel-card" data-category="reel" data-modal="13" type="button">
+              <video class="project-image" muted autoplay loop playsinline>
+                <source src="videos/social-media.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <span class="play-badge"><i data-lucide="play"></i></span>
+              <div class="project-info">
+                <h3 class="project-title">Social Media Growth Tips</h3>
+                <p class="project-category">Reels</p>
+                <p class="project-description">Short-form educational reel sharing practical social media growth
+                  strategies to increase engagement and audience reach.</p>
+                <p class="project-tools">• Video Editing • Social Media Marketing</p>
+              </div>
+            </button>
+
+            <button class="project-card glass-card reel-card" data-category="reel" data-modal="14" type="button">
+              <video class="project-image" muted autoplay loop playsinline>
+                <source src="videos/university-life.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <span class="play-badge"><i data-lucide="play"></i></span>
+              <div class="project-info">
+                <h3 class="project-title">University Life Moments</h3>
+                <p class="project-category">Reels</p>
+                <p class="project-description">Creative short form reel capturing memorable university life moments with
+                  engaging visuals and smooth transitions.</p>
+                <p class="project-tools">• Video Editing • Motion Graphics</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section-space">
+        <div class="resume-card glass-card">
+          <img src="images/resume-preview.jpg" alt="Resume Preview" class="resume-preview" />
+          <div class="resume-content">
+            <p class="section-eyebrow">Career &amp; Experience</p>
+            <h2 class="section-title">Professional Resume</h2>
+            <p class="resume-copy">Detailed overview of skills, tools, and creative achievements in content creation and
+              visual design.</p>
+            <div>
+              <button id="download-resume" type="button" class="btn btn-primary"
+                aria-label="Download Fatima Tu Zohra Resume PDF">
+                <i data-lucide="download"></i>
+                <span>Download Resume</span>
+              </button>
+              <div id="resume-feedback" class="resume-feedback hidden" role="status" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-space section-bg">
+        <div class="container">
+          <div class="contact-intro">
+            <p class="section-eyebrow">Get In Touch</p>
+            <h2 class="section-title">Let's Create Something Amazing Together</h2>
+            <p class="section-copy">Have a project in mind or interested in collaborating? Reach out through any of the
+              channels below.</p>
+          </div>
+
+          <div class="contact-grid">
+            <a class="contact-card glass-card" href="mailto:fatimaaz1027@gmail.com">
+              <i data-lucide="mail" class="contact-icon"></i>
+              <h3 class="contact-label">Email</h3>
+              <p class="contact-value">fatimaaz1027@gmail.com</p>
+            </a>
+
+            <a class="contact-card glass-card" href="tel:+923161601695">
+              <i data-lucide="phone" class="contact-icon"></i>
+              <h3 class="contact-label">Phone</h3>
+              <p class="contact-value">+92 316 1601695</p>
+            </a>
+
+            <div class="contact-card glass-card">
+              <i data-lucide="map-pin" class="contact-icon"></i>
+              <h3 class="contact-label">Location</h3>
+              <p class="contact-value">Faisalabad, Pakistan</p>
+            </div>
+
+            <a class="contact-card glass-card" href="https://www.linkedin.com/in/fatima-tu-zohra27/" target="_blank"
+              rel="noopener noreferrer">
+              <i data-lucide="linkedin" class="contact-icon"></i>
+              <h3 class="contact-label">LinkedIn</h3>
+              <p class="contact-value">linkedin.com/in/fatima-tu-zohra27</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-copy">© 2026 Fatima Tu Zohra. All rights reserved.</p>
+        <button id="back-to-top" type="button" class="btn btn-secondary btn-sm">
+          <span>Back to top</span>
+          <i data-lucide="arrow-up"></i>
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <div id="preview-modal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Portfolio project preview">
+    <div class="modal-wrapper">
+      <button id="preview-close" type="button" class="modal-close" aria-label="Close project preview">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="modal-body">
+        <img id="preview-image-1" src="images/mental-health.jpg" loading="lazy" class="preview-image hidden"
+          alt="Mental health awareness social media post promoting emotional wellbeing, self-care, and support." />
+        <img id="preview-image-2" src="images/prompt-engineering.jpg" loading="lazy" class="preview-image hidden"
+          alt="Promotional post for an AI Prompt Engineering Workshop featuring event details and registration information." />
+        <img id="preview-image-3" src="images/social-media.jpg" loading="lazy" class="preview-image hidden"
+          alt="Social media growth tips post highlighting audience engagement, content strategy, and online growth techniques." />
+        <img id="preview-image-4" src="images/al-noor-clothing.jpg" loading="lazy" class="preview-image hidden"
+          alt="Fashion Sale Campaign" />
+        <img id="preview-image-5" src="images/bee-app1.jpg" loading="lazy" class="preview-image hidden"
+          alt="Zero Investment Business" />
+        <img id="preview-image-6" src="images/bee-app2.jpg" loading="lazy" class="preview-image hidden"
+          alt="Why Choose BeeApp?" />
+        <img id="preview-image-7" src="images/ai-tools.jpg" loading="lazy" class="preview-image hidden"
+          alt="Essential AI Tools" />
+        <img id="preview-image-8" src="images/mistakes.jpg" loading="lazy" class="preview-image hidden"
+          alt="5 AI Mistakes to Avoid" />
+        <img id="preview-image-9" src="images/mega-fashion.jpg" loading="lazy" class="preview-image hidden"
+          alt="Mega Fashion Sale" />
+        <img id="preview-image-10" src="images/summer-fashion.jpg" loading="lazy" class="preview-image hidden"
+          alt="Summer Fashion Sale" />
+        <img id="preview-image-11" src="images/outfits-studies-cover.jpg" loading="lazy" class="preview-image hidden"
+          alt="2026 Fashion Collection" />
+        <img id="preview-image-12" src="images/beeapp-cover.jpg" loading="lazy" class="preview-image hidden"
+          alt="Earn Online with BeeApp" />
+        <video id="preview-video-13" class="preview-video hidden" controls loop playsinline>
+          <source src="videos/social-media.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <video id="preview-video-14" class="preview-video hidden" controls loop playsinline>
+          <source src="videos/university-life.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
